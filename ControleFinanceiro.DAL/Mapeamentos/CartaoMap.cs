@@ -27,6 +27,8 @@ namespace ControleFinanceiro.DAL.Mapeamentos
             builder.HasMany(c => c.Despesas).WithOne(c => c.Cartao);
 
             builder.ToTable("Cartoes");
+
+
         }
     }
 }
