@@ -28,7 +28,6 @@ namespace ControleFinanceiro.DAL.Mapeamentos
 
             builder.ToTable("Cartoes");
 
-
         }
     }
 }
